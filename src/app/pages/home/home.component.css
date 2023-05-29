@@ -1,0 +1,20 @@
+.article {
+    display: grid;
+    grid-template-areas: 
+    'big-card big-card small-card small-card';
+    gap: 3em;
+    margin: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.article__other {
+    grid-area: big-card;
+}
+
+.article__cards {
+    grid-area: small-card;
+    display: flex;
+    flex-direction: column;
+    gap: .5em
+}

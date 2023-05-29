@@ -1,0 +1,13 @@
+.container__menu-title {
+    text-align: center;
+}
+
+.container__menu-title h1 {
+    font-size: 12em;
+    text-transform: uppercase;
+}
+
+.container__menu-title hr {
+    border-color: var(--color-text);
+    margin: 1em;
+}

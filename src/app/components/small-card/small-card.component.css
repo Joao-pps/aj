@@ -1,0 +1,16 @@
+.content__small-card {
+    display: flex;
+    gap: 1em;
+    border-bottom: 1px solid var(--color-text);
+    padding-bottom: .5em
+}
+
+.card__text span {
+    color: var(--color-text)
+}
+
+.card__text h1 {
+    font-size: 1.30em;
+    margin: 1em 0;
+    line-height: 1.4
+}
