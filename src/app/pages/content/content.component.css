@@ -1,0 +1,13 @@
+.conteiner__contents {
+    text-align: center;
+    border: 1px solid white;
+    padding: 1em;
+    height: 100vh;
+}
+
+.imagem {
+    width: 30%;
+    min-width: 400px;
+    border: 1px solid white;
+    border-radius: 5px; 
+}

@@ -6,6 +6,11 @@
     margin: 1em 0;
 }
 
+.big-card__title a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .big-card__description p {
     color: var(--color-text);
     line-height: 1.3;
