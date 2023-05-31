@@ -1,8 +1,18 @@
 .content__small-card {
-    display: flex;
-    gap: 1em;
+    display: grid;
+    grid-template-areas: 
+    'img1 img1 img2 img2';
     border-bottom: 1px solid var(--color-text);
-    padding-bottom: .5em
+    padding-bottom: .5em;
+    gap: 1em;
+}
+
+.card__image {
+    grid-area: img1;
+}
+
+.card__text {
+    grid-area: img2;
 }
 
 .card__text span {
@@ -18,4 +28,8 @@
 .card__text h1 a {
     text-decoration: none;
     color: inherit
+}
+
+.imagem__banner {
+    width: 100%;
 }
